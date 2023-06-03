@@ -12,20 +12,20 @@ Infect other systems by sending the compiled malware to a list of email addresse
 
 ## To run the ransomware, follow these steps:
 
-Open two separate terminals or command prompt windows.
+1. Open two separate terminals or command prompt windows.
 
-In the first terminal, navigate to the project directory and execute the server.py file using the following command:
+2. In the first terminal, navigate to the project directory and execute the server.py file using the following command:
 
-Copy code
 python server.py
-In the second terminal, navigate to the project directory and execute the client.py file using the following command:
 
-Copy code
+3. In the second terminal, navigate to the project directory and execute the client.py file using the following command:
+
 python client.py
-The client program will initiate the encryption process on the victim's computer. You will see a prompt indicating that the encryption is in progress.
 
-Once the encryption is completed, the prompt will wait for a decryption key input. Enter the word "code" (without quotes) as the decryption key and press Enter.
+4. The client program will initiate the encryption process on the victim's computer. You will see a prompt indicating that the encryption is in progress.
 
-The ransomware will decrypt all the encrypted files using the provided decryption key.
+5. Once the encryption is completed, the prompt will wait for a decryption key input. Enter the word "code" (without quotes) as the decryption key and press Enter.
+
+6. The ransomware will decrypt all the encrypted files using the provided decryption key.
 
 Please note that running this ransomware on your computer can result in the encryption of your files. It is strongly advised to only run it in a controlled virtual machine environment or on systems where you have appropriate permissions and backups in place.
